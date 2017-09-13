@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NormalAppMaster.master.cs" Inherits="OIMS.NormalAppMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/AppStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="form1" runat="server">
+
+
+    <div id="wrapper">
+
+
+
+    <div id="banner">
+        <div class=welcomebox>
+        <asp:Label ID="lblWelcome" runat="server"></asp:Label>
+        <asp:LinkButton ID="lnkLogOut" runat="server" onclick="lnkLogOut_Click">Log Out</asp:LinkButton>
+        </div><!--welcomebox close-->
+    </div><!--banner close-->
+
+
+    <div id="menu">
+    </div><!--menuwrapper close-->
+    <div class=menu>
+    <ul>
+        <li><a href=Computer.aspx>Computer</a>
+            <ul>
+            <li><a href=Computer.aspx>Admit</a></li>
+            <li><a href=UpdateStudent.aspx>Update</a></li>
+            <li><a href=#>Display</a></li>
+            </ul>
+        </li>
+        <li>Language</li>
+        <li>Prepration</li>
+        <li>expense</li>
+        <li>Report</li>
+    </ul>
+    
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+
+        
+
+        
+
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+
+    <div id="fotter" class="style2">
+        Copyright.©2014, O&#39;seas Academy,All Right Reserved
+        </div><!--fotter close-->
+   
+    </div><!--wrapper-->
+    </form>
+   </body>
+</html>

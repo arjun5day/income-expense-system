@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="OIMS.Masters.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="../Style/SiteStyle.css" rel="stylesheet" type="text/css" />
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+    <div id="banner">
+    <div class="loginwrapper"><a href="../AdminApp/Login.aspx">Login Application</a></div>
+    </div><!--banner close-->
+    <div id="menu">
+    <ul>
+    <li><a href="Index.aspx">Home</a></li>
+    <li><a href="Computer.aspx">Computer</a></li>
+    <li><a href="Language.aspx">Language</a></li>
+    <li><a href="Prepration.aspx">Prepration</a></li>
+    <li><a href="Publication.aspx">Publication</a></li>
+    <li><a href="Photo.aspx">Photo Gallery</a></li>
+    <li><a href="Contact.aspx">Contact</a></li>
+    </ul>
+    
+    </div><!--menu close-->
+
+   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+   <div id="leftbody"></div><!--leftbody close-->
+   <div id="rightbody"></div><!--rightbody close-->
+   </asp:ContentPlaceHolder>
+   <div id="fotter">
+   Copyright.© 2010- 2011, O'seas Academy, All Right Reserved
+Design By :Arjun Panday</div>
+   </div><!--wrapper close-->
+   
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+c:\users\arjun\documents\visual studio 2010\Projects\OIMS\OIMS\bin\OIMS.dll
+c:\users\arjun\documents\visual studio 2010\Projects\OIMS\OIMS\bin\OIMS.pdb
+c:\users\arjun\documents\visual studio 2010\Projects\OIMS\OIMS\obj\Debug\OIMS.dll
+c:\users\arjun\documents\visual studio 2010\Projects\OIMS\OIMS\obj\Debug\OIMS.pdb
+C:\Users\Arjun\Documents\Visual Studio 2010\Projects\OIMS\OIMS\obj\Debug\OIMS.csprojResolveAssemblyReference.cache
+E:\project example\OIMS\OIMS\bin\OIMS.dll
+E:\project example\OIMS\OIMS\bin\OIMS.pdb
+E:\project example\OIMS\OIMS\obj\Debug\OIMS.csprojResolveAssemblyReference.cache
+E:\project example\OIMS\OIMS\obj\Debug\OIMS.dll
+E:\project example\OIMS\OIMS\obj\Debug\OIMS.pdb

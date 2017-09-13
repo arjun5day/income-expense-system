@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="OIMS.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/SiteStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+    <div id="banner">
+    <div class=loginwrapper><a href="Login.aspx">Login Application</a></div>
+    </div><!--banner close-->
+    <div id="menu">
+    <ul>
+    <li><a href=Index.aspx>Home</a></li>
+    <li><a href=Index.aspx>Computer</a></li>
+    <li><a href=Index.aspx>Language</a></li>
+    <li><a href=Index.aspx>Prepration</a></li>
+    <li><a href=Index.aspx>Publication</a></li>
+    <li><a href=Index.aspx>Photo Gallery</a></li>
+    <li><a href=Index.aspx>Contact</a></li>
+    </ul>
+    
+    </div><!--menu close-->
+
+   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+   </asp:ContentPlaceHolder>
+   <div id="fotter"></div>
+   </div><!--wrapper close-->
+   
+
+    </form>
+</body>
+</html>

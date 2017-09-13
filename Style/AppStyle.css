@@ -1,0 +1,182 @@
+﻿#wrapper 
+{
+    width:950px;
+	margin:0 auto;
+	}
+#banner 
+{
+    width:950px;
+	height:150px;
+	background-image:url(../Image/appbanner.jpg);
+	margin:0 auto;
+	}
+.welcomebox
+{
+    width:184px;
+    height:22px;
+    margin-top:120px;
+    margin-left:800px;
+    position:absolute;
+    top: 15px;
+    left: 53px;
+}	
+	
+#menuwrapper 
+{
+    width:950px; 
+	height:30px;
+	background-color:Aqua;
+	}
+.menu 
+{
+    width:950px;
+    height:30px;
+    background-color:#e1cfd0;
+}
+
+.menu li 
+{
+    position:relative;
+    display:block;
+    list-style:none;
+    float:left;
+    width:120px;
+    text-align:center;
+    }
+.menu ul ul 
+{
+    position:absolute;
+    visibility:hidden;
+    background-color:#e1cfd0;
+    padding:0px;
+    text-align:center;
+    display:block;
+    }
+.menu ul li:hover ul 
+{
+    visibility:visible;
+    }
+.menu ul li a 
+{
+    text-decoration:none;
+    }
+.menu ul li ul li 
+{
+    border-bottom:1px solid black;
+    }
+         
+	
+.loginwrapper
+{
+    margin-left:850px;
+    background-color:Yellow;
+    padding:5px;
+    }
+.loginwrapper:hover 
+{
+   
+    }
+   
+    
+	
+#loginuserWrapper
+{
+    background-color:#40a5ff;
+    width:400px;
+    }
+    
+.appbody
+{
+    width:950px;
+    height:800px;
+    background-color:#e1cfd0;
+    }
+    
+#fotter 
+{
+    background-color:#e1cfd0;
+    width:950px;
+    clear:both;
+    }
+/*appcontent goes here
+*/    
+.appwrapper{}   
+.appreport 
+{
+    background-color:#e1cfd0;
+    width:950px;        
+    } 
+.leftappcontent
+{
+    background-color:#e1cfd0;
+    width:465px;
+    border-radius:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    float:left;
+    padding:5px;
+    }
+    .leftappcontent h4 
+{
+    background-color:Green;
+    }
+
+    .rightappcontent 
+{
+    background-color:#e1cfd0;
+    width:465px;
+    border-radius:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    float:right;
+    padding:5px;
+    }
+.bottomappcontent
+{
+    width:950px;
+    background-color:#e1cfd0;
+    border-radius:10px;
+    }
+    
+    
+/*
+bottom menu style goes here
+*/  
+.bottommenu 
+{
+    background:#e1cfd0;
+    width:940px;
+    height:25px;
+    margin:5px;
+    border-radius:8px;
+    clear:both;
+    }
+.bottommenu ul li
+{
+    width:300px;
+    height:25px;
+    float:left;
+    position:relative;
+    list-style:none;
+    }
+.bottommenu ul li a 
+{
+    text-decoration:none;
+    }
+        
+.bottommenu ul li a:hover 
+{
+    text-decoration:underline;
+    }
+    
+
+    
+.errorMessage 
+{
+    color:Red;
+    }
+    
+    
+    
+    
+    

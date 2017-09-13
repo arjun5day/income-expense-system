@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminAppMaster.master.cs" Inherits="OIMS.AdminAppMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Style/AppStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+
+
+
+    <div id="banner">
+        <div class="welcomebox">
+            <asp:Label ID="lblWelcome" runat="server" Text="Label"></asp:Label>
+            <asp:LinkButton ID="lnkLogOut" runat="server" onclick="lnkLogOut_Click" 
+                ValidationGroup="LogOutGroup">Log Out</asp:LinkButton>
+        </div><!--welcomebox close-->
+    </div><!--banner close-->
+
+
+
+    <div id="menuwrapper">
+    
+    <div class="menu">
+     <ul>
+        <li><a href="../AdminApp/CreateUser.aspx">User</a>
+        
+            <ul>
+                <li><a href="../AdminApp/CreateUser.aspx">Create</a></li>
+                <li><a href="../AdminApp/UpdateUser.aspx">Update</a></li>
+                <li><a href="../AdminApp/UserDisplay.aspx">Display</a></li>
+            </ul>
+        </li>
+        <li><a href="../AdminApp/AdmitCStudent.aspx">Computer</a>
+         <ul>
+                <li><a href="../AdminApp/AdmitCStudent.aspx">Admit Student</a></li>
+                <li><a href="../AdminApp/UpdateCStudent.aspx">Update Student</a></li>
+                <li><a href="../AdminApp/DisplayCStudent.aspx">Display</a></li>
+            </ul>
+        </li>
+        <li><a href="../AdminApp/AdmitLanguae.aspx">Language</a>
+         <ul>
+                <li><a href="../AdminApp/AdmitLanguae.aspx">Admit Student</a></li>
+                <li><a href="../AdminApp/UpdateLStudent.aspx">Update Student</a></li>
+                <li><a href="../AdminApp/DisplayLStudent.aspx">Display</a></li>
+            </ul>
+        </li>
+        <li><a href="../AdminApp/AdmitPStudent.aspx">Prepration</a>
+         <ul>
+                <li><a href="../AdminApp/AdmitPStudent.aspx">Admit Student</a></li>
+                <li><a href="../AdminApp/UpdatePStudent.aspx">Update Student</a></li>
+            </ul>
+        </li>
+        <li><a href="../AdminApp/CReport.aspx">Report</a></li>
+    </ul>    
+    </div><!--menu close--></div><!--menuwrapper close-->
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <div id="fotter">Copyright.©2014, O&#39;seas Academy,All Right Reserved</div><!--fotter close-->
+
+       </div><!--wrapper close-->
+    </form>
+ 
+</body>
+</html>

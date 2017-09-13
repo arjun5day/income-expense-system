@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NormalApp.master.cs" Inherits="OIMS.Masters.NormalApp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Style/AppStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+
+
+
+    <div id="banner">
+        <div class="welcomebox">
+            <asp:Label ID="lblWelcome" runat="server" Text="Welcome"></asp:Label>
+            <asp:LinkButton ID="lnkLogOut" runat="server" onclick="lnkLogOut_Click">Log Out</asp:LinkButton>
+        </div><!--welcomebox close-->
+    </div><!--banner close-->
+
+
+
+        <div id="menuwrapper">
+    
+    <div class="menu">
+     <ul>
+        <li> <a href="../NormalApp/AdmitCStudent.aspx">Computer</a>
+         <ul>
+                <li><a href="../NormalApp/AdmitCStudent.aspx">Admit Student</a></li>
+                <li><a href="../NormalApp/UpdateCStudent.aspx">Update Student</a></li>
+            </ul>
+        </li>
+        <li> <a href="../NormalApp/AdmitLStudent.aspx">Language</a>
+         <ul>
+                <li><a href="../NormalApp/AdmitLStudent.aspx">Admit Student</a></li>
+                <li><a href="../NormalApp/UpdateLStudent.aspx">Update Student</a></li>
+            </ul>
+        </li>
+        <li> <a href="../NormalApp/AdmitPStudent.aspx">Prepration</a>
+         <ul>
+                <li><a href="../NormalApp/AdmitPStudent.aspx">Admit Student</a></li>
+                <li><a href="../NormalApp/UpdatePStudent.aspx">Update Student</a></li>
+            </ul>
+        </li>
+        <li><a href="../AdminApp/CReport.aspx">Report</a></li>
+    </ul>    
+    </div><!--menu close--></div><!--menuwrapper close-->
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <div id="fotter">Copyright.©2014, O&#39;seas Academy,All Right Reserved</div><!--fotter close-->
+
+       </div><!--wrapper close-->
+    </form>
+ 
+</body>
+</html>
